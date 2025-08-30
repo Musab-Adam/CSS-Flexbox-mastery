@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Pricing-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+  line-height: 2;
+}
+.Pricing-card {
+  padding: 1.1em;
+  background-color: white;
+  box-shadow: 1px 8px 8px #888888;
+  border-radius: 0 0 55px 55px;
+  width: 20em;
+}
+.Pricing-list {
+  list-style: none;
+  padding: 1.5em;
+}
+button {
+  border: none;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  width: 80%;
+  padding: 10px;
+}
+.black {
+  background: black;
+  color: white;
+}
+.black button {
+  background-color: white;
+  color: black;
+}
+h2 {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0 auto;
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Pricing-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    line-height: 2;
+  }
+  .Pricing-card {
+    padding: 1.1em;
+    background-color: white;
+    box-shadow: 1px 8px 8px #888888;
+    border-radius: 0 0 55px 55px;
+  }
+  .Pricing-list {
+    list-style: none;
+    padding: 1.5em;
+  }
+  button {
+    border: none;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 80%;
+    padding: 10px;
+  }
+  .black {
+    background: black;
+    color: white;
+  }
+  .black button {
+    background-color: white;
+    color: black;
+  }
+  h2 {
+    text-align: center;
+  }
+}

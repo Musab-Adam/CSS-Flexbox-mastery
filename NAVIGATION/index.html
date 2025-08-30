@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/index.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="header">
+        <span>
+          <a href="#"
+            ><img src="./assets/image/SkyWays.png" width="160" > </a
+          >
+        </span>
+      </div>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><span class="menu">&times;</span></a>
+        </li>
+        <li class="nav-link"><a href="#">Home</a></li>
+        <li class="nav-link"><a href="#">Features</a></li>
+        <li class="nav-link"><a href="#">About Us</a></li>
+        <li class="nav-link"><a href="#">Contact Us</a></li>
+        <li class="nav-link"><a href="#">Login</a></li>
+      </ul>
+      <ul class="nav-item">
+        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="#">Features</a></li>
+        <li class="hideOnMobile"><a href="#">About Us</a></li>
+        <li class="hideOnMobile"><a href="#">Contact Us</a></li>
+        <li class="hideOnMobile"><a href="#">Login</a></li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"><span class="menu">&#9776;</span></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
